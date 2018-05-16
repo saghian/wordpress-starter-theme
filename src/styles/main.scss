@@ -1,0 +1,12 @@
+@import "_scss/variable";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~hbootstrap4rtl/bootstrap-rtl.css';
+@import "my_custom_style.css";
+
+
+
+body {
+  font-family: $main_font_family;
+  font-weight:  normal;
+  font-size:  16px;
+}

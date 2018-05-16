@@ -1,0 +1,50 @@
+{
+  "name": "wordpress-starter-theme",
+  "version": "1.0.0",
+  "description": "simple wordpress starter theme for newbies!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open",
+    "dev": "webpack --mode development ./src/index.js --output ./assets/main.js",
+    "watch": "webpack --watch --mode development ./src/index.js --output ./assets/main.js",
+    "build": "webpack --mode production ./src/index.js --output ./assets/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saghian/wordpress-starter-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saghian/wordpress-starter-theme/issues"
+  },
+  "homepage": "https://github.com/saghian/wordpress-starter-theme#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.1",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.8.1",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "bootstrap": "^4.1.1",
+    "hbootstrap4rtl": "^1.0.2",
+    "jquery": "^3.3.1",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.14.3",
+    "reset-css": "^3.0.0"
+  }
+}
